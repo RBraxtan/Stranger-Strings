@@ -34,3 +34,7 @@ print ("SHA512 of Your File:")
 print (sha512_hash.hexdigest())
 
 
+print("\n\n")
+os.system('\".\\dependencies\\sigcheck.exe ' + your_file)
+
+
