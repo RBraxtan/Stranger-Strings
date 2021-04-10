@@ -1,8 +1,7 @@
 import hashlib
 import sys
 import os
-your_file = sys.argv[0]
-BLOCK_SIZE = 65536 
+your_file = sys.argv[1]
 
 
 
@@ -12,13 +11,13 @@ sha256_hash = hashlib.sha256()
 sha512_hash = hashlib.sha512()
 
 with open(your_file, 'rb') as f: #read file bytes
-    fb = f.read (BLOCK_SIZE) #read file and take in only declared amount
-    while len(fb) > 0: #if data is still being read from file
-        md5_hash.update(fb)
-        sha1_hash.update(fb)
-        sha256_hash.update(fb)
-        sha512_hash.update(fb)
-        fb = f.read(BLOCK_SIZE)#read next block of file
+    chunk = 0 #read file and take in only declared amount
+    while chunk != b'': #if data is still being read from file
+        chunk = f.read(1024)
+        md5_hash.update(chunk)
+        sha1_hash.update(chunk)
+        sha256_hash.update(chunk)
+        sha512_hash.update(chunk)
 
 # print different hash formats of the file 
 
