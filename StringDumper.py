@@ -5,12 +5,16 @@ if len(sys.argv) < 2:
 else:
     if not os.path.isdir("./outputs"):
         os.makedirs("./outputs")
-    os.system("strings2 -r " + sys.argv[1] + " > ./outputs/strings.txt")
+    os.system("\".\\dependencies\\strings2\" -r " + sys.argv[1] + " > ./outputs/strings.txt")
     os.system("sort ./outputs/strings.txt /O ./outputs/strings.txt")
     os.system("echo \"\" > ./outputs/entropy.txt")
 
     strings = open("./outputs/strings.txt", "r")
     entropyfile = open("./outputs/entropy.txt", "w")
+    IOCBlacklist = open("./dependencies/IOCBlacklist.txt", "r")
+    Flagged_Strings = open("./outputs/Flagged Strings.txt", "w")
+
+    flagged = {}
 
     string_count = 0
     entropytotal = 0
@@ -24,9 +28,15 @@ else:
         
         entropytotal += entropy
         string_count += 1
+
+        for line in IOCBlacklist:
+            if line.strip("\n") in string:
+                Flagged_Strings.write(line.strip("\n") + ":" + string)
+        IOCBlacklist.seek(0)
+
     if string_count != 0:
         print("Average Entropy: " + str(round(entropytotal,2)) + "/" + str(string_count) + " (" + str(round(entropytotal/string_count, 2)) + ")")
         
     entropyfile.close()
-    strings.close()
     os.system("sort /r ./outputs/entropy.txt /O ./outputs/entropy.txt")
+    strings.close()

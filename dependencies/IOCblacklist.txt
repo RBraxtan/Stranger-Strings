@@ -1,0 +1,1171 @@
+nopassword
+password12
+secret
+superman
+iloveyou
+helpme
+home123
+username
+Password
+admin
+Admin
+administrator
+passwd
+login
+Login
+changeme
+fuck
+manager
+master
+password
+Administrator
+batman
+superman
+123123
+12321
+123321
+123abc
+123qwe
+123asd
+1234abcd
+1234qwer
+1q2w3e
+a1b2c3
+qwewq
+pass
+mypass
+mypassword
+adminadmin
+superuser
+supervisor
+password1
+password12
+password123
+admin1
+admin12
+admin123
+pass1
+pass12
+pass123
+root123
+pw123
+qwe123
+love123
+nopass
+nopassword
+nothing
+ihavenopass
+super
+threatexpert
+emsisoft
+rising
+pctools
+norman
+k7computing
+ikarus
+hacksoft
+gdata
+fortinet
+ewido
+clamav
+comodo
+quickheal
+avira
+avast
+esafe
+ahnlab
+centralcommand
+drweb
+grisoft
+nod32
+f-prot
+jotti
+computerassociates
+networkassociates
+etrust
+panda
+sophos
+trendmicro
+defender
+rootkit
+spyware
+Kaspersky
+BitDefender
+Dr.Web
+Kaspersky Antivirus
+Nod32 Antivirus 2.x
+Ewido Security Suite
+McAfee VirusScan
+Panda Antivirus/Firewall
+Symantec/Norton
+Symantec Shared
+Symantec
+PC-cillin Antivirus
+F-Secure
+Kingsoft ShaDu
+NOD32 Antivirus
+Rising Antivirus
+Jiangmin Antivirus
+360 ShaDu
+360 Safe
+McAfee AV
+Bitdefender AV
+Norton Symantec AV
+F-Secure AV
+AhnLab V3 Internet Security 8
+Avast AntiVirus
+Avira Antivirus
+Eset Nod32 Scanner
+F-Secure Gatekeeper Handler Starter
+F-Secure Recognizer
+F-Secure HIPS
+F-Secure Gatekeeper
+F-Secure Filter
+WinDefend
+OutpostFirewall
+McAfee Framework Service
+Panda Antivirus
+ZoneAlarm Client
+Zone Labs Client
+windefender
+SeAssignPrimaryTokenPrivilege
+SeAuditPrivilege
+SeBackupPrivilege
+SeChangeNotifyPrivilege
+SeCreateGlobalPrivilege
+SeCreatePagefilePrivilege
+SeCreatePermanentPrivilege
+SeCreateSymbolicLinkPrivilege
+SeCreateTokenPrivilege
+SeDebugPrivilege
+SeEnableDelegationPrivilege
+SeImpersonatePrivilege
+SeIncreaseBasePriorityPrivilege
+SeIncreaseQuotaPrivilege
+SeIncreaseWorkingSetPrivilege
+SeLoadDriverPrivilege
+SeLockMemoryPrivilege
+SeMachineAccountPrivilege
+SeManageVolumePrivilege
+SeProfileSingleProcessPrivilege
+SeRelabelPrivilege
+SeRemoteShutdownPrivilege
+SeRestorePrivilege
+SeSecurityPrivilege
+SeShutdownPrivilege
+SeSyncAgentPrivilege
+SeSystemEnvironmentPrivilege
+SeSystemProfilePrivilege
+SeSystemtimePrivilege
+SeTakeOwnershipPrivilege
+SeTcbPrivilege
+SeTimeZonePrivilege
+SeTrustedCredManAccessPrivilege
+SeUndockPrivilege
+SeUnsolicitedInputPrivilege
+D:P(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;%s)
+D:P(A;;GA;;;BA)(A;;GA;;;SY)(A;;GA;;;%s)S:(ML;;NR;;;HI)
+D:P(A;OICI;GA;;;BA)(A;OICI;GA;;;SY)
+D:P(A;;GA;;;SY)(A;;GA;;;BA)(A;;GA;;;WD)(A;;GA;;;RC)(A;;GA;;;AC)S:(ML;;NW;;;S-1-16-0)
+D:P(A;;GA;;;SY)(A;;GA;;;BA)(A;;GA;;;WD)(A;;GA;;;RC)S:(ML;;NW;;;LW)
+D:P(A;CIOI;FA;;;SY)(A;CIOI;FA;;;BA)(A;CIOI;FA;;;WD)
+(A;;0xb;;;AC)
+(A;;0x3;;;AC)
+D:(D;OICI;GA;;;BG)(D;OICI;GA;;;AN)(A;OICI;GA;;;AU)(A;OICI;GA;;;BA)
+D:(A;;GA;;;WD)(A;;GA;;;AN)S:(ML;;NW;;;S-1-16-0)
+D:(A;OICI;GA;;;WD)S:(ML;CIOI;NRNWNX;;;LW)
+D:(A;OICI;GA;;;WD)
+D:(A;;GA;;;WD)S:(ML;;NRNWNX;;;LW)
+D:(A;;GA;;;WD)
+D:(A;OICI;GA;;;CO)(A;OICI;GA;;;SY)(A;OICI;GA;;;BA)(A;OICI;GA;;;%s)
+D:AI(A;;GAFA;;;WD)
+D:AI(A;;RPWPCCDCLCSWRCWDWOGA;;;WD)
+D:P(D;CIOI;GA;;;BG)(D;CIOI;GA;;;LG)(A;;GA;;;WD)
+D:P(D;CIOI;GA;;;DG)(D;CIOI;GA;;;BG)(D;CIOI;GA;;;LG)(A;;GA;;;WD)
+D:P(D;CIOI;GA;;;BG)(D;CIOI;GA;;;LG)(D;;SD;;;WD)(A;;0x1e01ff;;;WD)(A;OICIIO;GA;;;WD)
+D:P(D;CIOI;GA;;;DG)(D;CIOI;GA;;;BG)(D;CIOI;GA;;;LG)(D;;SD;;;WD)(A;;0x1e01ff;;;WD)(A;OICIIO;GA;;;WD)
+D:(A;;LC;;;WD)(A;;CCDCLCSWRPSDRCWDWO;;;SY)(A;;LCSWRPRCGW;;;BA)(A;;LC;;;AC);AC);AC)
+D:(A;;0x100001;;;WD)(A;;0x1f0001;;;SY)(A;;0x1f0001;;;%s)(A;;0x100001;;;AC);AC);AC)
+D:(A;;0x00120001;;;WD)(A;;0x001C0002;;;PS)
+D:(A;;0x00120003;;;WD)
+D:(A;;0x00120001;;;WD)(A;;0x001C0002;;;PS)
+D:(A;;0x00120003;;;WD)
+D:(A;;0x100001;;;WD)(A;;0x1f0001;;;SY)(A;;0x1f0001;;;%s)(A;;0x100001;;;AC);AC);AC)
+D:(A;;GR;;;RC)(A;;GR;;;%s)
+D:(A;;GR;;;RC)(A;;GR;;;%s)(A;;GR;;;%s)
+D:(A;;GRGWGX;;;WD)(A;;GRGWGX;;;RC)(A;;GA;;;BA)(A;;GA;;;OW)(A;;GR;;;AC)(A;;LC;;;AC)
+D:(A;;LC;;;WD)(A;;CCDCLCSWRPSDRCWDWO;;;SY)(A;;CCDCLCSWRPSDRCWDWO;;;%s)(A;;LC;;;AC)
+D:(A;;LC;;;WD)(A;;CCDCLCSWRPSDRCWDWO;;;SY)(A;;LCSWRPRCGW;;;BA)(A;;LC;;;AC);AC);AC)
+D:(A;;0x1f0003;;;BA)(A;;0x100000;;;WD)
+D:(A;;GA;;;SY)(A;;0x%x;;;%s)
+D:(A;;GA;;;SY)(A;;0x%x;;;%s)S:(ML;;1;;;LW)
+D:(A;;GA;;;WD)(A;;GA;;;AN)
+D:(A;;GA;;;WD)(A;;GA;;;AN)S:(ML;;NW;;;LW)
+D:(A;;GA;;;AU)(A;;GA;;;BA)(A;;GA;;;AN)(A;;GA;;;BG)(A;;GA;;;AC)S:(ML;;NW;;;LW)
+D:(A;;FA;;;SY)(A;;FA;;;LS)(A;;FRFW;;;BA)(A;;FRFW;;;BU)(A;;FRFW;;;AN)S:(ML;;;;;LW)
+D:(D;OICI;FA;;;AN)(A;OICI;FA;;;BG)(A;OICI;FA;;;SY)(A;OICI;FA;;;LS)(A;OICI;FA;;;AU)(A;OICI;FA;;;BA))
+D:(D;OICI;FA;;;AN)(A;OICI;FA;;;BG)(A;OICI;FA;;;SY)(A;OICI;FA;;;LS)(A;OICI;FA;;;AU)(A;OICI;FA;;;BA)
+D:P(A;;GA;;;SY)
+D:P(A;;GA;;;SY)(A;;GA;;;BA)
+D:P(A;;GA;;;SY)(A;;GRGX;;;BA)
+D:P(A;;GA;;;SY)(A;;GRGWGX;;;BA)(A;;GR;;;WD)
+D:P(A;;GA;;;SY)(A;;GRGWGX;;;BA)(A;;GR;;;WD)(A;;GR;;;RC)
+D:P(A;;GA;;;SY)(A;;GRGWGX;;;BA)(A;;GRGW;;;WD)(A;;GR;;;RC)
+D:P(A;;GA;;;SY)(A;;GRGWGX;;;BA)(A;;GRGWGX;;;WD)(A;;GRGWGX;;;RC)
+S:(ML;;NRNWNX;;;LW)
+S:(ML;CIOI;NRNWNX;;;LW)
+S:(ML;CIOI;NRNWNX;;;LW)
+S:(ML;;NW;;;LW)D:(A;;RPWPFAKAGA;;;WD)(A;;RPWPFAKAGA;;;AC)
+S:(ML;;NW;;;LW)
+S:(ML;;NW;;;S-1-16-0)
+S:(ML;;NW;;;LW)D:(A;;0x12019b;;;WD)
+O:BAG:BAD:(A;;0x7;;;WD)(A;;0x7;;;AN)(A;;0x7;;;%s)(A;;0x7;;;%s)(A;;0x3;;;AC)
+O:SYG:SYD:(A;;RC;;;SY)
+O:BAG:BAD:(A;;0x7;;;WD)(A;;0x3;;;AN)(A;;0x7;;;%s)(A;;0x7;;;%s)(A;;0x3;;;AC)C;;;AC)
+O:BAG:BAD:(A;;0x1f;;;BA)(A;;0xb;;;WD)(A;;0x1f;;;%s)(A;;0x1f;;;%s)(A;;0xb;;;AC);AC)
+O:SYD:(A;OICI;RC;;;SY)(A;OICI;RC;;;NS)(A;OICI;RC;;;S-1-5-80-3273805168-4048181553-3172130058-210131473-390205191)
+O:BAG:BAD:(A;;0x1f;;;BA)(A;;0xb;;;IU)(A;;0xb;;;SY)
+O:BAG:BAD:(A;;0x7;;;PS)(A;;0x3;;;SY)(A;;0x7;;;BA)
+WD:(A;;GA;;;WD)
+27C3B8ED-0790-42BD-9AD7-18465E7F7696
+27C3B8ED-0790-42BD-9AD7-18465E7F7696
+27C3B8ED-0790-42BD-9AD7-18465E7F7696
+97808F6C-4769-49D5-9553-18AE9C62ACD7
+B196B286-BAB4-101A-B69C-00AA00341D07
+D27CDB6E-AE6D-11CF-96B8-444553540000
+abe2869f-9b47-4cd9-a358-c22904dba7f7
+00000000-0000-0000-C000-000000000046
+ADB880A6-D8FF-11CF-9377-00AA003B7A11
+5e7e8100-9138-11d1-945a-00c04fc308ff
+82bd0e67-9fea-4748-8672-d5efe5b779b0
+5e7e8100-9138-11d1-945a-00c04fc308ff
+82BD0E67-9FEA-4748-8672-D5EFE5B779B0
+8856F961-340A-11D0-A96B-00C04FD705A2
+27C3B8ED-0790-42BD-9AD7-18465E7F7696
+27C3B8ED-0790-42BD-9AD7-18465E7F7696
+27C3B8ED-0790-42BD-9AD7-18465E7F7696
+97808F6C-4769-49D5-9553-18AE9C62ACD7
+B196B286-BAB4-101A-B69C-00AA00341D07
+D27CDB6E-AE6D-11CF-96B8-444553540000
+abe2869f-9b47-4cd9-a358-c22904dba7f7
+00000000-0000-0000-C000-000000000046
+ADB880A6-D8FF-11CF-9377-00AA003B7A11
+5e7e8100-9138-11d1-945a-00c04fc308ff
+82bd0e67-9fea-4748-8672-d5efe5b779b0
+5e7e8100-9138-11d1-945a-00c04fc308ff
+82BD0E67-9FEA-4748-8672-D5EFE5B779B0
+8856F961-340A-11D0-A96B-00C04FD705A2
+RegistryKey
+ShellServiceObjectDelayLoad
+CurrentVersion
+Windows\CurrentVersion
+Windows NT\CurrentVersion
+\Software\Microsoft\Windows\CurrentVersion
+Software\Microsoft\Windows\CurrentVersion
+Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall
+SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
+SOFTWARE\Microsoft\Windows\CurrentVersion\Run
+Policies\Explorer\Run
+Run
+RunOnce
+RunServices
+RunServicesOnce
+\Device
+\DosDevices
+DEFAULT\Software
+.DEFAULT\Software
+HKEY_CURRENT_USER
+HKEY_LOCAL_MACHINE
+HKEY_DYN_DATA
+HKEY_PERFORMANCE_DATA
+HKEY_CLASSES_ROOT
+HKEY_CURRENT_USER
+HKEY_LOCAL_MACHINE
+HKEY_USERS
+HKEY_PERFORMANCE_DATA
+HKEY_CURRENT_CONFIG
+HKEY_DYN_DATA
+SYSTEM\ControlSet001\Services\
+System\CurrentControlSet\Services\
+HKCR
+HKCU
+HKLM
+HKPD
+HKDD
+HKCC
+HKCU
+Hardware\
+disabletaskmanager
+warnonintranet
+loadappinit_dlls
+AppInit_DLLs
+noprotectedmodebanner
+clsid\
+root\securitycenter
+\registry\machine
+system\currentcontrolset
+system\controlset001
+system\controlset002
+system\controlset003
+system\wpa
+\systemroot
+\shell\open\command
+%ALLUSERPROFILE%
+AppData
+%APPDATA%
+commonappdata
+%CommonProgramFiles%
+%HOMEPATH%
+%LOCALAPPDATA%
+%ProgramData%
+%ProgramFiles%
+%PUBLIC%
+%SystemDrive%
+%SystemRoot%
+%TEMP%
+%USERPROFILE%
+%windows%
+%windir%
+%system%
+%temp%
+%user%
+%programfiles%
+\WINNT\
+\winnt\
+\WINDOWS\
+\windows\
+\SYSTEM32\
+\system32\
+\SYSTEM\
+\system\
+\SYSTEMROOT\
+\systemroot\
+\SystemRoot\
+76487-640-1457236-23837
+76487-337-8429955-22614
+76487-644-3177037-23510
+76487-640-8834005-23195
+76487-640-0716662-23535
+76487-644-8648466-23106
+76487-341-5883812-22420
+76487-OEM-0027453-63796
+76497-640-6308873-23835
+55274-640-2673064-23950
+00426-293-8170032-85146
+AutoOpen
+SummaryInformation
+Macros
+Enable Content
+Root Entry
+Please Enable Content* to see this document.
+DocumentSummaryInformation
+PROJECT.THISDOCUMENT.AUTOOPEN
+Microsoft Office
+aplib
+AutoHotkeys
+bochs
+bginfo
+arp
+attrib
+autorun
+autodelete
+bitlocker
+bitsadmin
+bcdedit
+CreateObject
+Compressed by jpeg-recompress
+Confuser
+ConfuserEx
+extrac32
+encrypt
+listdlls
+[LordPE]
+LordPE
+lsadump
+lsass
+lsasrv
+lzo
+msxsl
+makecab
+mavinject
+msdt
+makedir
+mstsc
+msiexec
+mstsc
+msiexec
+NSIS
+NetMon
+NullsoftInst
+mimikatz
+mshta
+msbuild
+mountvol
+net
+netsh
+Nbtstat
+ProcessHacker
+sdelete
+sdelete64
+shell shch
+setup
+skype
+search
+ScriptingEngine
+schtasks
+sysrep
+shutdown
+start
+shellcode
+stop
+systeminfo
+sqldumper
+sqlps
+tcpview
+time
+tor
+tracert
+taskkill
+tskill
+tasklist
+tracker
+unzip
+urlmon
+taskmgr
+Task Scheduler
+update
+upload
+URLencode
+UPX0
+UPX1
+UCL data compression library.
+vbox
+vba6
+vba7
+vmware
+vbscript
+vssadmin
+virtualBox
+wevtutil
+whoami
+whois
+wbadmin
+winftp
+winrar
+wine
+winDir
+winword
+wmic
+wscript
+winlogon
+wireshark
+wget
+write
+wmi
+wmic
+wusa
+wer
+wil
+wscript.shell
+xwizard
+WebBrowserPassView
+xcopy
+xcals
+xmrig
+aPLib v1.01 - the smaller the better :)
+Safengine Shielden v2.3.0.0
+This program cannot be run in DOS mode
+!This program cannot be run in DOS mode.
+!That program cannot be run in DOS mode.
+!This program cannot be run in DOS>mode.
+!This program requires Microsoft Windows.
+This program requires Microsoft Windows.
+!This pxzgrac cannot be run in DOS mode.
+This program requires Win32
+!This pragram cannot be run in DOS mode.
+!This is a PE dynamic link library
+!This is a Windows NT character-mode executable
+!This is a PE executable
+!This is a Win32 program.
+Win32 only!
+!That program cannot be run in DOS made.
+This program must be run under Win32
+This program must be run under Win32.
+This program must be run under Win64
+This program must be run under Win64.
+ThisprogrammustberununderWin32
+!Require Windows
+Requires Win32 $
+!It's .NET EXE$@
+!Win32. EXE
+!Win32 .EXE.
+!Windows ONLY!
+Win32 Program!
+!Windows Program
+JanFebMarAprMayJunJulAugSepOctNovDec
+R6002\r\n- floating point support not loaded\r\n
+R6002\r\n- floating point not loaded\r\n
+R6008\r\n- not enough space for arguments\r\n
+R6009\r\n- not enough space for environment\r\n
+program name unknown
+abnormal program termination\r\n
+R6010\r\n- abort() has been called\r\n
+R6016\r\n- not enough space for thread data\r\n
+R6017\r\n- unexpected multithread lock error\r\n
+R6018\r\n- unexpected heap error\r\n
+R6019\r\n- unable to open console device\r\n
+R6024\r\n- not enough space for _onexit/atexit table\r\n
+R6025\r\n- pure virtual function call\r\n
+R6026\r\n- not enough space for stdio initialization\r\n
+R6027\r\n- not enough space for lowio initialization\r\n
+R6028\r\n- unable to initialize heap\r\n
+R6029\r\n- This application cannot run using the active version of the Microsoft .NET Runtime - floating point not loaded
+R6030\r\n- CRT not initialized\r\n
+R6031\r\n- Attempt to initialize the CRT more than once.
+This indicates a bug in your application.\r\n
+R6032\r\n- not enough space for locale information\r\n
+R6033\r\n- Attempt to use MSIL code from this assembly during native code initialization
+__GLOBAL_HEAP_SELECTED
+__MSVCRT_HEAP_SELECT
+startup
+inflate
+\\.\SICE
+\\.\REGSYS
+\\.\REGVXG
+\\.\FILEVXG
+\\.\FILEM
+MSXML2.ServerXMLHTTP$
+webcam
+Program Files (x86)
+PROCEXPLORER
+MSScriptControl.ScriptControl.1
+Embedded Control
+OCXNAME
+Mr.Black
+WinZip Self-Extractor - Password
+This self-extracting Zip file is password protected.
+Windows Installer XML (3.0.5419.0)
+Your personal files are encrypted!
+!!!Rescue your files!!!
+Now you have the last chance to decrypt your files.
+Any attempt to remove or corrupt this software will result
+in immediate elimination of the private key by the server.
+Your decryption price will
+Everything is fine now decrypting all files.
+All files Decrypted
+Enter Decrypt Key
+WScript.Shell
+Shell.Execute
+System Volume Information
+Boot
+_ReflectiveLoader@0
+_ReflectiveLoader@4
+unsigned long __stdcall ReflectiveLoader(void *)
+Registry
+CreateSubKey
+Microsoft Application Compatibility Toolkit 5.6
+File manager
+System Manager
+Screen Capture
+Webcam Capture
+Packet Sniffer
+Listen
+Background
+\\.\mailslot\%s
+dbgeng
+Network Performance and Security Manager
+ProxyEnable
+ProxyServer
+ProxyOverride
+ProxyUserName
+ProxyPassword
+SkpWnd
+SkypeControlAPIAttach
+SkypeControlAPIDiscover
+Skype:API
+AdministratorsGroup
+NtAuthority
+masterkey
+IEHistory
+ServiceMain
+SetRequestHeader
+PR_Bind
+PR_Accept
+PR_AcceptRead
+PR_Connect
+PR_Listen
+PR_Write
+PR_Writev
+PR_Close
+PR_Send
+PR_TransmitFile
+PR_OpenTCPSocket
+PR_GetSocketOption
+PR_SetSocketOption
+PR_Shutdown
+PR_GetError
+PR_SetError
+PR_GetNameForIdentity
+WH_CALLWNDPROC
+WH_CALLWNDPROCRET
+WH_CBT
+WH_DEBUG
+WH_FOREGROUNDIDLE
+WH_GETMESSAGE
+WH_JOURNALPLAYBACK
+WH_JOURNALRECORD
+WH_KEYBOARD_LL
+WH_KEYBOARD
+WH_MOUSE_LL
+WH_MOUSE
+WH_MSGFILTER
+WH_SYSMSGFILTER
+WH_SHELL
+wininet
+Start scanner
+Scanner completed
+Start crypter
+Files encrypted
+MemoryScanner
+ActiveX Control
+\\.\PhysicalDrive%d
+Microsoft Windows Auto Update
+IsAdmin
+CryptKeyType
+CryptKeyId
+NetAdapter
+Gateway
+DHCPServer
+DnsServer
+Microsoft Enhanced Cryptographic Provider v1.0
+Microsoft Strong Cryptographic Provider
+Microsoft Base Cryptographic Provider v1.0
+Microsoft Enhanced RSA and AES Cryptographic Provider
+Intel Hardware Cryptographic Service Provider
+Microsoft Unified Security Protocol Provider
+Encryptioninfo
+EncryptedPackage
+StrongEncryptionDataSpace
+StrongEncryptionTransform
+vm_protect
+%BOTID%
+%BOTNET%
+FtpServer
+FtpUserName
+FtpPassword
+FtpDirectory
+RootDirectory
+Port
+SafeBox
+MinDump
+QEMU
+FromBase64String
+ToBase64String
+HttpDownload
+HttpResponse
+HttpRequest
+ProcessRequest
+HttpContext
+DownloadString
+Invoke
+DynamicRun
+InvokeV
+CallMethod
+CallMethodV
+RunNewApp
+RegisterServiceProcess
+RegWrite
+RegDelete
+RegRead
+CallByName
+PaySafeCard
+InjectByPid
+sendkeys
+opencmd
+startkeylogger
+stopkeylogger
+listprocesses
+killprocess
+stopspy
+PopServer
+PopPort
+PopAccount
+PopPassword
+SmtpServer
+SmtpPort
+SmtpAccount
+SmtpPassword
+WininetCacheCredentials
+PasswordType
+OutpostMonitor
+DisableAllPrivileges
+SetPrivilege
+Download.Complete
+Download.Cancelled
+Download.Failed
+ClearBrowsingHistoryOnExit
+GetMACAddress
+GetProcessesByName
+WebRequest
+WebResponse
+GetResponse
+GetVolumeSerial
+ENCRYPtSTRING
+ENCRYPTBYTe
+VBRUN
+Blowfish
+CreateDecryptor
+MD5CryptoServiceProvider
+TripleDESCryptoServiceProvider
+PaddingMode
+iexplorer
+ExecuteCommand
+RunPE
+CCleaner
+Binder
+SpyTheSpy
+TCPEye
+SpeedGear
+IPBlocker
+procexp
+Payment ok
+Payment Received. Proceed to decryption.
+Waiting Payment
+Waiting TOR Connection
+TorLocker
+TorLocker_v0.9.3
+Wallpaper
+kippohome
+huffman
+DecodeHuffman
+Inflate
+ZipAndEncrypt
+ZipAndAES
+cookie_module
+CWSandbox
+httpinjects
+modify
+coin-miner
+urlmon
+inhibitPolicyMapping
+experience Destroy
+payload
+Shell.Application
+UltraVnc
+UltraVncSC
+RunProgram
+Macromedia
+FlashPlayer
+NetworkService\Cookies\
+server
+CONNECT
+Launcher
+remote
+random
+inject
+hook
+crack
+script
+Clipboard
+Privilege
+Reboot
+CabinetFile
+cabfile
+Socket
+Console
+shell
+reverse
+HookProc
+attempt
+Gh0st
+sharedaccess
+localgroup
+administrators
+Administrator
+nsocket
+webkit
+sandbox
+keystroke
+scanning
+Callback
+torrent
+downspeed
+webseeds
+POST
+WinHttpClient
+fingerprint
+subscribe
+announce
+payload
+tracker
+watchdog
+HHA Version 4.74.8702
+PrepareOurShit
+Exefiles
+Scanning
+NullsoftInst
+WinRAR SFX
+\\cryptme\\
+Expires
+Cookie
+Windows Update Service
+serialNumber
+userPassword
+OLLYDBG
+BankID
+messageId
+HeartBeat
+Request
+Unload
+RequestLoop
+HeartBeatLoop
+TcpClient
+NetworkStream
+CreateDomain
+ComputeHash
+PROCMON_WINDOW_CLASS
+WdcWindow
+Dumper64
+APISpy32Class
+TokenPrivilege
+WebKit2WebProcess
+Rijndael
+clientkey
+rpcsrv
+Engine started
+Running in background
+\DosDevices\DKOM_Driver
+\Device\DKOM_Driver
+Process successfully hidden.
+RegSAM
+DownloadUrl
+QueueDownloader
+MsNetMonitor
+Windows Filter Driver
+IsUserAdministrator
+NotifyDownloading
+CheckAdminPrivileges
+TrackOnDefaultBrowser
+GetDomain
+checkdomain
+bytesDownloaded
+God Mode
+logger
+Hook cleaning on
+PiD obfuscation on
+Code injection successful!
+Code injection failed!
+Injecting code ...
+Code Injection
+Keylogging disabled.
+DisallowRun
+NoDriveTypeAutoRun
+LZO real-time data compression library.
+CryptoLibV2_freeBuffer
+CryptoLibV2_getRandom
+fileupload
+All the important files on your computer were encrypted.
+All the important files on your disks were encrypted.
+Schedule service command line interface
+Resistance is futile
+Anti-debug
+Detoured
+Client hook allocation failure.
+silentpostback
+AlreadyRunning
+keeplog
+StubRun
+StubExtract
+VBoxGuest
+Betabot
+Hashtable
+Monitor
+RegServer
+HTTPMail User Name
+ 2004 2005 Pierre le Riche / Professional Software Development
+ActiveOfflineKeylogger
+ActiveOnlineKeyStrokes
+ActiveOnlineKeylogger
+AntiVirusDisableNotify
+BTMemoryLoadLibary: Cant attach library
+DownloadFail
+DownloadSuccess
+Progman
+UPLOADEXEC
+UPLOADFILE
+UnActiveOfflineKeylogger
+UnActiveOnlineKeyStrokes
+UnBlockContact
+Video Capture
+WEBCAMLIVE
+WEBCAMSTOP
+wscsvc
+httpstop
+logstop
+ftfpstop
+procsstop
+securestop
+reconnect
+disconnect
+botid
+flusharp
+flushdns
+crash
+killthreads
+killproc
+killid
+Kennwort
+Object dump complete.
+Ping flood
+ROOTED
+Rebooting system
+Reconnecting
+Referer: %s
+Remote Command Prompt
+Removing Bot
+[DDoS]
+[KEYLOG]: %s
+[PSNIFF]
+[PING]
+[TFTP]
+[UPD]
+administrador
+administrat
+administrateur
+Download complete
+ALIEN-Z
+Delete
+NoRemove
+ForceRemove
+Keylogger
+crypter
+NetKeyLogger
+pipeline
+miner
+Download ERROR
+Execute ERROR
+webBrowser2
+IEFrame
+master
+mysql
+daemon
+backup
+marta
+redhat
+exploitable
+passwd
+proxypasswd
+proxyuser
+Login denied
+Remote file not found
+RenameFile
+RunPrompt
+RunSelectedAsAdmin
+RunSelectedHidden
+RunSelectedShow
+RemoteMachineName
+AheadLib
+web-browser
+SetHook
+TMemoryScanner
+Protect
+SecurityAnonymous
+SecurityIdentification
+SecurityImpersonation
+SecurityDelegation
+WebServices
+DownloadData
+\\.\PhysicalDrive0
+windowsupdate
+wilderssecurity
+castlecops
+spamhaus
+cpsecure
+arcabit
+emsisoft
+sunbelt
+securecomputing
+computerassociates
+networkassociates
+etrust
+rootkit
+spyware
+vmdebug
+VMware Replay Debugging Helper
+VMware VMCI Bus Driver
+vmci
+VMware Pointing Device
+vmmouse
+msvmmouf
+MS Virtual SCSI Disk Device
+VMware Workstation v10
+VMwareDragDetWndClass
+VMwareSwitchUserControlClass
+VMware
+VMware Pointing
+VMware server memory
+VMware Replay
+AntiVirtualBox
+AntiVmWare
+AntiVirtualPC
+AntiMalwarebytes
+AntiOllydbg
+AntiWireshark
+antiSpyware
+Anti-Virus
+avast!
+AntiVir
+Malware
+Norton Personal Firewall
+ZoneAlarm
+Comodo Firewall
+eTrust EZ Firewall
+F-Secure Internet Security
+McAfee Personal Firewall
+Outpost Personal Firewall
+Panda Internet Seciruty Suite
+Panda Anti-Virus/Firewall
+BitDefnder/Bull Guard Antivirus
+Rising Firewall
+360Safe AntiArp
+Kingsoft Safe
+Fiddler
+wireshark
+Chromium
+SCREENSHOT
+RunProgram
+PendingFileRenameOperations
+InstallHOOK
+InstallLocalHOOK
+UninstallHOOK
+ZLibEx
+Xenocode Virtual Desktop
+Spoon Virtual Machine
+Xenocode Virtual Appliance Runtime
+CPlApplet
+VMProtect begin
+VMProtect end
+NETWORK SERVICE
+Administrative Tools
+CREATE_SUSPENDED
+VBScript.Encode
+JScript.Encode
+ExeScriptPAD
+ExeScript
+ExeScript Host
+Godmode
+DECOMPRESSOR
+antivirus
+AntivirusProduct
+DefaultBrowser
+MemoryProtection
+BaseScript
+Updater
+IDetourHook
+DetourHook
+CaptureScreen
+Shell_TrayWnd
+IEpasswords
+ServiceName
+DisplayName
+ScriptingEngine
+ProbeScriptFint
+ActiveScriptEventConsumer
+root/cimv2
+WbemScripting.SWbemLocator
+ROOT\CIMV2
+SELECT * from Win32_BaseBoard
+Manufacturer
+SerialNumber
+ChassisTypes
+SMBIOSAssetTag
+WMIHelper
+WM_HTML_GETOBJECT
+WM_COPYDATA
+SE_PRIVILEGE_ENABLED_BY_DEFAULT
+SE_PRIVILEGE_ENABLED
+SE_PRIVILEGE_REMOVED
+SE_PRIVILEGE_USED_FOR_ACCESS
+SE_PRIVILEGE_VALID_ATTRIBUTES
+SE_CREATE_TOKEN_NAME
+SE_ASSIGNPRIMARYTOKEN_NAME
+SE_LOCK_MEMORY_NAME
+SE_INCREASE_QUOTA_NAME
+SE_UNSOLICITED_INPUT_NAME
+SE_MACHINE_ACCOUNT_NAME
+SE_TCB_NAME
+SE_SECURITY_NAME
+SE_TAKE_OWNERSHIP_NAME
+SE_LOAD_DRIVER_NAME
+SE_SYSTEM_PROFILE_NAME
+SE_SYSTEMTIME_NAME
+SE_PROF_SINGLE_PROCESS_NAME
+SE_INC_BASE_PRIORITY_NAME
+SE_CREATE_PAGEFILE_NAME
+SE_CREATE_PERMANENT_NAME
+SE_BACKUP_NAME
+SE_RESTORE_NAME
+SE_SHUTDOWN_NAME
+SE_DEBUG_NAME
+SE_AUDIT_NAME
+SE_SYSTEM_ENVIRONMENT_NAME
+SE_CHANGE_NOTIFY_NAME
+SE_REMOTE_SHUTDOWN_NAME
+SE_UNDOCK_NAME
+SE_SYNC_AGENT_NAME
+SE_ENABLE_DELEGATION_NAME
+SE_MANAGE_VOLUME_NAME
+SE_IMPERSONATE_NAME
+SE_CREATE_GLOBAL_NAME
+SE_TRUSTED_CREDMAN_ACCESS_NAME
+SE_RELABEL_NAME
+SE_INC_WORKING_SET_NAME
+SE_TIME_ZONE_NAME
+SE_CREATE_SYMBOLIC_LINK_NAME
+SE_GROUP_ENABLED_BY_DEFAULT
+SE_GROUP_ENABLED
+SE_GROUP_OWNER
+SE_GROUP_USE_FOR_DENY_ONLY
+SE_GROUP_INTEGRITY
+SE_GROUP_INTEGRITY_ENABLED
+SE_GROUP_LOGON_ID
+SE_GROUP_RESOURCE
+SE_GROUP_VALID_ATTRIBUTES
+vbscript
+execScript
+CipherMode
+Twofish
+Explorer\Shell Folders
+WRITE_REGISTER_USHORT
+READ_REGISTER_USHORT
+WRITE_REGISTER_UCHAR
+READ_REGISTER_UCHAR
+READ_REGISTER_ULONG
+WRITE_REGISTER_ULONG
+/AutoIt3ExecuteLine
+/AutoIt3ExecuteScript
+AutoIt v3
+AutoIt
+AUTOIT SCRIPT
+AUTOIT NO CMDEXECUTE
+AutoIt3ExecuteScript
+AutoIt3ExecuteLine
+Software\AutoIt v3\AutoIt
+AutoIt Error
+CompiledScript
+AutoIt v3 Script: 3 3 8 1
+AutoIt v3 Script: 3 3 8 0
+AutoIt3
+AUTOITEXE
+DecryptByte
+DecryptBlock
+Yoda's Protector
+Beds-Protector
+Beds-Protector-v7.0
+ENIGMA
+Enigma Protector
+UpackByDwing@
+GDIScreenshot
+cmd.exe
+Crypt
+.wnry
