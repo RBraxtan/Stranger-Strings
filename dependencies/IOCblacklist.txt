@@ -1169,3 +1169,34 @@ GDIScreenshot
 cmd.exe
 Crypt
 .wnry
+Unknown pseudo relocation bit size %d
+VirtualQuery failed for %d bytes at address %p
+thawte Primary Root CA0
+/requestedPrivileges
+__mingwthr_remove_key_dtor
+GetStartupInfoA
+http://mail.ru/0
+LLC Mail.Ru1
+LLC Mail.Ru0
+KERNEL32.dll
+GetProcAddress
+GetLastError
+vfprintf
+_setmode
+__p__environ
+Moscow1
+.?AV?$CStreamDecompress@VCWin32FileReader@@VCWin32FileWriter@@VCStreamSimpleCallback@@@@
+oversubscribed dynamic bit lengths tree
+invalid stored block lengths
+http://www.split-code.com/
+.?AVtype_info@@
+.?AVILoader@@
+.?AVCLoader@@
+GetTempFileNameW
+KERNEL32.dll
+stream end
+E:cmn%nFAD
+_controlfp
+
+
+
