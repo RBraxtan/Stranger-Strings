@@ -1196,3 +1196,5 @@ KERNEL32.dll
 stream end
 E:cmn%nFAD
 _controlfp
+.exe
+.sys
