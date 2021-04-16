@@ -1188,7 +1188,6 @@ Moscow1
 .?AV?$CStreamDecompress@VCWin32FileReader@@VCWin32FileWriter@@VCStreamSimpleCallback@@@@
 oversubscribed dynamic bit lengths tree
 invalid stored block lengths
-http://www.split-code.com/
 .?AVtype_info@@
 .?AVILoader@@
 .?AVCLoader@@
@@ -1197,6 +1196,3 @@ KERNEL32.dll
 stream end
 E:cmn%nFAD
 _controlfp
-
-
-

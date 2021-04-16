@@ -1,20 +1,27 @@
-import sys,os,math
+import sys,os,math,hashlib
 
 if len(sys.argv) < 2:
-    print("Syntax Error: StringDumper.py <filename>")
+    print("Syntax Error: StringDumper.py <file_name>")
 else:
-    if not os.path.isdir("./outputs"):
-        os.makedirs("./outputs")
-    os.system("\".\\dependencies\\strings2\" -r " + sys.argv[1] + " > ./outputs/strings.txt")
-    os.system("sort ./outputs/strings.txt /O ./outputs/strings.txt")
-    os.system("echo \"\" > ./outputs/entropy.txt")
+    sha256_hash = hashlib.sha256()
 
-    strings = open("./outputs/strings.txt", "r")
-    entropyfile = open("./outputs/entropy.txt", "w")
+    with open("./samples/" + sys.argv[1], 'rb') as f: #read file bytes
+        chunk = 0 #read file and take in only declared amount
+        while chunk != b'': #if data is still being read from file
+            chunk = f.read(1024)
+            sha256_hash.update(chunk)
+    print("\nSHA256 Hash: " + sha256_hash.hexdigest() + "\n")
+
+    if not os.path.isdir("./outputs/" + sha256_hash.hexdigest()):
+        os.makedirs("./outputs/" + sha256_hash.hexdigest())
+    os.system("\".\\dependencies\\strings2\" -r " + sys.argv[1] + " > " + "./outputs/" + sha256_hash.hexdigest() + "/strings.txt")
+    os.system("sort ./outputs/" + sha256_hash.hexdigest() + "/strings.txt /O ./outputs/" + sha256_hash.hexdigest() + "/strings.txt")
+    os.system("echo \"\" > ./outputs/" + sha256_hash.hexdigest() + "/entropy.txt")
+
+    strings = open("./outputs/" + sha256_hash.hexdigest() + "/strings.txt", "r")
+    entropyfile = open("./outputs/" + sha256_hash.hexdigest() + "/entropy.txt", "w")
     IOCBlacklist = open("./dependencies/IOCBlacklist.txt", "r")
-    Flagged_Strings = open("./outputs/Flagged Strings.txt", "w")
-
-    flagged = {}
+    Flagged_Strings = open("./outputs/" + sha256_hash.hexdigest() + "/Flagged Strings.txt", "w")
 
     string_count = 0
     entropytotal = 0
@@ -38,5 +45,5 @@ else:
         print("Average Entropy: " + str(round(entropytotal,2)) + "/" + str(string_count) + " (" + str(round(entropytotal/string_count, 2)) + ")")
         
     entropyfile.close()
-    os.system("sort /r ./outputs/entropy.txt /O ./outputs/entropy.txt")
+    os.system("sort /r ./outputs/" + sha256_hash.hexdigest() + "/entropy.txt /O ./outputs/" + sha256_hash.hexdigest() + "/entropy.txt")
     strings.close()

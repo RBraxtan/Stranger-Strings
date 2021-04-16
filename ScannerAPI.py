@@ -6,8 +6,8 @@ if len(sys.argv) < 2:
     print("No file specified.")
     exit()
 
-if(not os.path.exists(sys.argv[1])):
-    print("Specified file not found.")
+if(not os.path.exists("./samples/" + sys.argv[1])):
+    print("Specified file not found. Make sure it is in the samples directory.")
     exit()
 
 config = {}
@@ -17,7 +17,7 @@ with open("config.txt", "r") as f:
 
 sha256_hash = hashlib.sha256()
 
-with open(sys.argv[1], 'rb') as f: #read file bytes
+with open("./samples/" + sys.argv[1], 'rb') as f: #read file bytes
     chunk = 0 #read file and take in only declared amount
     while chunk != b'': #if data is still being read from file
         chunk = f.read(1024)
@@ -34,7 +34,7 @@ else:
     if(sample.times_submitted > 1):
         userAnswer = input("This sample has been submitted to VirusTotal before, would you like to reanalyze? (y/n):")
         if userAnswer == "y" or userAnswer == "Y":
-            with open(sys.argv[1], "rb") as f:
+            with open("./samples/" + sys.argv[1], "rb") as f:
                 print()
                 analysis = client.scan_file(f, wait_for_completion=True)
                 #Analyses from https://developers.virustotal.com/v3.0/reference#analyses-object
@@ -145,7 +145,7 @@ else:
 
 
     else:
-        with open(sys.argv[1], "rb") as f:
+        with open("./samples/" + sys.argv[1], "rb") as f:
                 print()
                 analysis = client.scan_file(f, wait_for_completion=True)
                 #Analyses from https://developers.virustotal.com/v3.0/reference#analyses-object
