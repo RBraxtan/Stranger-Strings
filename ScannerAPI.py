@@ -87,7 +87,7 @@ else:
             file_report.write(json.dumps(sample.names, indent=4, sort_keys=True, default=str) + "\n")
             
             file_report.close()
-                client.close()
+            client.close()
         else:
             print("")
             #Files from https://developers.virustotal.com/v3.0/reference#files
@@ -142,21 +142,22 @@ else:
             file_report.write(json.dumps(sample.names, indent=4, sort_keys=True, default=str) + "\n")
             
             file_report.close()
+            client.close()
 
 
     else:
         with open("./samples/" + sys.argv[1], "rb") as f:
-                print()
-                analysis = client.scan_file(f, wait_for_completion=True)
-                #Analyses from https://developers.virustotal.com/v3.0/reference#analyses-object
-                report = open("./outputs/" + sha256_hash.hexdigest() + "/VirusTotal_Analysis_Report.txt", "w")
-                report.write("########################################\nStats\n########################################\n")
-                report.write(json.dumps(analysis.stats, indent=4, sort_keys=True, default=str) + "\n")
-                report.write("########################################\nEngine Results\n########################################\n")
-                report.write(json.dumps(analysis.results, indent=4, sort_keys=True, default=str) + "\n")
-                report.close()
+            print("")
+            analysis = client.scan_file(f, wait_for_completion=True)
+            #Analyses from https://developers.virustotal.com/v3.0/reference#analyses-object
+            report = open("./outputs/" + sha256_hash.hexdigest() + "/VirusTotal_Analysis_Report.txt", "w")
+            report.write("########################################\nStats\n########################################\n")
+            report.write(json.dumps(analysis.stats, indent=4, sort_keys=True, default=str) + "\n")
+            report.write("########################################\nEngine Results\n########################################\n")
+            report.write(json.dumps(analysis.results, indent=4, sort_keys=True, default=str) + "\n")
+            report.close()
 
-                file_report = open("./outputs/" + sha256_hash.hexdigest() + "/VirusTotal_File_Report.txt", "w")
+            file_report = open("./outputs/" + sha256_hash.hexdigest() + "/VirusTotal_File_Report.txt", "w")
             file_report.write("########################################\nFile Info\n########################################\n")
             file_report.write("File Creation Date: " + str(sample.creation_date) + "\n")
             file_report.write("File Last Modified Date: " + str(sample.last_modification_date) + "\n")
