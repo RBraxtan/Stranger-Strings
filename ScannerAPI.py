@@ -44,6 +44,49 @@ else:
                 report.write("########################################\nEngine Results\n########################################\n")
                 report.write(json.dumps(analysis.results, indent=4, sort_keys=True, default=str) + "\n")
                 report.close()
+
+            file_report = open("./outputs/" + sha256_hash.hexdigest() + "/VirusTotal_File_Report.txt", "w")
+            file_report.write("########################################\nFile Info\n########################################\n")
+            file_report.write("File Creation Date: " + str(sample.creation_date) + "\n")
+            file_report.write("File Last Modified Date: " + str(sample.last_modification_date) + "\n")
+            file_report.write("First Submission Date: " + str(sample.first_submission_date) + "\n")
+            file_report.write("Last Analysis Date: " + str(sample.last_analysis_date) + "\n")
+            file_report.write("File Reputation: " + str(sample.reputation) + "\n")
+            file_report.write("File Type: " + sample.type_tag + "\n")
+
+            file_report.write("########################################\nCrowdsourced IDS Results\n########################################\n")
+            try:
+                file_report.write(json.dumps(sample.crowdsourced_ids_stats, indent=4, sort_keys=True, default=str) + "\n\n")
+                file_report.write(json.dumps(sample.crowdsourced_ids_results, indent=4, sort_keys=True, default=str) + "\n")
+            except:
+                file_report.write("No crowdsourced IDS Results found.\n")
+
+            file_report.write("########################################\nCrowdsourced YARA Results\n########################################\n")
+            try:
+                file_report.write(json.dumps(sample.crowdsourced_yara_results, indent=4, sort_keys=True, default=str) + "\n")
+            except:
+                file_report.write("No crowdsourced YARA Results found.\n")
+
+            file_report.write("########################################\nSandbox Verdicts\n########################################\n")
+            try:
+                file_report.write(json.dumps(sample.sandbox_verdicts, indent=4, sort_keys=True, default=str) + "\n")
+            except:
+                file_report.write("No Sandbox Verdicts found.\n")
+
+            file_report.write("########################################\nSigma Analysis\n########################################\n")
+            try:
+                file_report.write(json.dumps(sample.sigma_analysis_stats, indent=4, sort_keys=True, default=str) + "\n")
+            except:
+                file_report.write("No Sigma Analysis found.\n")
+
+            file_report.write("########################################\nFiles Names\n########################################\n")
+            try:
+                file_report.write("Meaningful Name: " + sample.meaningful_name + "\n")
+            except:
+                file_report.write("No meaningful names found.\n")
+            file_report.write(json.dumps(sample.names, indent=4, sort_keys=True, default=str) + "\n")
+            
+            file_report.close()
                 client.close()
         else:
             print("")
@@ -112,5 +155,49 @@ else:
                 report.write("########################################\nEngine Results\n########################################\n")
                 report.write(json.dumps(analysis.results, indent=4, sort_keys=True, default=str) + "\n")
                 report.close()
-                client.close()
+
+                file_report = open("./outputs/" + sha256_hash.hexdigest() + "/VirusTotal_File_Report.txt", "w")
+            file_report.write("########################################\nFile Info\n########################################\n")
+            file_report.write("File Creation Date: " + str(sample.creation_date) + "\n")
+            file_report.write("File Last Modified Date: " + str(sample.last_modification_date) + "\n")
+            file_report.write("First Submission Date: " + str(sample.first_submission_date) + "\n")
+            file_report.write("Last Analysis Date: " + str(sample.last_analysis_date) + "\n")
+            file_report.write("File Reputation: " + str(sample.reputation) + "\n")
+            file_report.write("File Type: " + sample.type_tag + "\n")
+
+            file_report.write("########################################\nCrowdsourced IDS Results\n########################################\n")
+            try:
+                file_report.write(json.dumps(sample.crowdsourced_ids_stats, indent=4, sort_keys=True, default=str) + "\n\n")
+                file_report.write(json.dumps(sample.crowdsourced_ids_results, indent=4, sort_keys=True, default=str) + "\n")
+            except:
+                file_report.write("No crowdsourced IDS Results found.\n")
+
+            file_report.write("########################################\nCrowdsourced YARA Results\n########################################\n")
+            try:
+                file_report.write(json.dumps(sample.crowdsourced_yara_results, indent=4, sort_keys=True, default=str) + "\n")
+            except:
+                file_report.write("No crowdsourced YARA Results found.\n")
+
+            file_report.write("########################################\nSandbox Verdicts\n########################################\n")
+            try:
+                file_report.write(json.dumps(sample.sandbox_verdicts, indent=4, sort_keys=True, default=str) + "\n")
+            except:
+                file_report.write("No Sandbox Verdicts found.\n")
+
+            file_report.write("########################################\nSigma Analysis\n########################################\n")
+            try:
+                file_report.write(json.dumps(sample.sigma_analysis_stats, indent=4, sort_keys=True, default=str) + "\n")
+            except:
+                file_report.write("No Sigma Analysis found.\n")
+
+            file_report.write("########################################\nFiles Names\n########################################\n")
+            try:
+                file_report.write("Meaningful Name: " + sample.meaningful_name + "\n")
+            except:
+                file_report.write("No meaningful names found.\n")
+            file_report.write(json.dumps(sample.names, indent=4, sort_keys=True, default=str) + "\n")
+            
+            file_report.close()
+            
+            client.close()
     client.close()
