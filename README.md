@@ -14,8 +14,8 @@ Step2:  Unizip Files and make sure they're all in the same directory/folder
 Step3:  Create a free account on VirusTotal to obtain a personal API key.  
 Step4:  Important!! Open config file and enter your VirusTotal-API-Key and save.
 Step5:  Open command prompt in Windows 10 and go to the directory where files are located.
-Step6:  On the command line run the python script "mainrun.py "youfile.exe"
-Step7:  Analyze reports, hashes, strings, entropy, and  VirusTotal report to determine if your file sample is malicious.
+Step6:  On the command line run the python script "mainrun.py "youfile.exe"  
+Step7:  Open outputs to analyze reports, hashes, strings, entropy, and  VirusTotal report to determine if your file sample is malicious. 
 
 What's in the scripts?
 Shannon Entropy Values:
