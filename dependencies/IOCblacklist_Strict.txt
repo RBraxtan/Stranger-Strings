@@ -365,6 +365,8 @@ aplib
 AutoHotkeys
 bochs
 bginfo
+arp
+attrib
 autorun
 autodelete
 bitlocker
@@ -457,8 +459,11 @@ winlogon
 wireshark
 wget
 write
+wmi
 wmic
 wusa
+wer
+wil
 wscript.shell
 xwizard
 WebBrowserPassView
