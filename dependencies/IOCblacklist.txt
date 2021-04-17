@@ -377,7 +377,6 @@ Compressed by jpeg-recompress
 Confuser
 ConfuserEx
 extrac32
-encrypt
 listdlls
 [LordPE]
 LordPE
@@ -1197,3 +1196,4 @@ E:cmn%nFAD
 _controlfp
 .exe
 .sys
+bitcoin
