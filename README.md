@@ -1,7 +1,7 @@
 # FSA-Project-Static-Analysis
 
 
-Read First
+Read First before
 *Warning!!  When working with potential malware it is important to use a VM or sandbox that is not connected to any network. 
 *Warning!! We are not responsible for any improper use or spread of any malware.  
 *We are not responsible for the users final conclusion of analysis.
