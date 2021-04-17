@@ -50,6 +50,8 @@ else:
             if line.strip("\n").lower() in string.lower():
                 Flagged_Strings.write(line.strip("\n") + ":" + string)
         IOCBlacklist.seek(0)
+    Flagged_Strings.close()
+    os.system("sort \"./outputs/" + sha256_hash.hexdigest() + "/Flagged Strings.txt\" /O \"./outputs/" + sha256_hash.hexdigest() + "/Flagged Strings.txt\"")
 
     if string_count != 0:
         print("Average Entropy: " + str(round(entropytotal,2)) + "/" + str(string_count) + " (" + str(round(entropytotal/string_count, 2)) + ")\n")
