@@ -1,7 +1,16 @@
 import hashlib
 import sys
 import os
-your_file = sys.argv[1]
+
+if len(sys.argv) < 2:
+    print("No file specified. Correct Syntax: Hashing.py <filename>")
+    exit()
+
+if(not os.path.exists("./samples/" + sys.argv[1])):
+    print("Specified file not found. Make sure it is in the samples directory.")
+    exit()
+
+your_file = "./samples/" + sys.argv[1]
 
 
 
