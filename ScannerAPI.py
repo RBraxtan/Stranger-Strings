@@ -1,4 +1,8 @@
-import vt
+try:
+    import vt
+except:
+    print("\nvt-py not installed, install using \"pip install vt-py\". Skipping virustotal scan...\n")
+    exit()
 import json,sys,os
 import hashlib
 
