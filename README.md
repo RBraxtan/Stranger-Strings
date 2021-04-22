@@ -11,14 +11,14 @@ The purpose of this project is to allow an analyst to statically analyze potenti
 <br />
 Instructions:<br />
 <br />
-Step0: Make sure you have python 3+ installed, as well as the virustotal python api (vt-py) which can be installed with "pip install vt-py" from command prompt.
-Step1: Download Repository.<br />
-Step2: Unizip Files and make sure they're all in the same directory/folder.<br />
-Step3: Create a free account on VirusTotal to obtain a personal API key. *optional*<br /><br />
-Step4: Open config file and enter your VirusTotal-API-Key and save.<br />
-Step5: Open command prompt in Windows and go to the directory where files are located.<br />
-Step6: On the command line run the python script "mainrun.py <sample.ext>"<br />
-Step7: Open outputs to analyze reports, hashes, strings, entropy, and VirusTotal report to determine if your file sample is malicious.<br /> 
+Step 0: Make sure you have python 3+ installed, as well as the virustotal python api (vt-py) which can be installed with "pip install vt-py" from command prompt.
+Step 1: Download Repository.<br />
+Step 2: Unizip Files and make sure they're all in the same directory/folder.<br />
+Step 3: Create a free account on VirusTotal to obtain a personal API key. *optional*<br /><br />
+Step 4: Open config file and enter your VirusTotal-API-Key and save.<br />
+Step 5: Open command prompt in Windows and go to the directory where files are located.<br />
+Step 6: On the command line run the python script "mainrun.py <sample.ext>"<br />
+Step 7: Open outputs to analyze reports, hashes, strings, entropy, and VirusTotal report to determine if your file sample is malicious.<br /> 
 <br />
 What's in the output directory?<br />
 entropy.txt: A text document containing the strings from the submitted malware with their relevant shannon entropy value listed before each string. Strings more likely to be human-readable are usually found towards the top.<br />
