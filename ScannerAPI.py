@@ -1,4 +1,5 @@
-try:
+
+try: # attempt to import vt, will fail if the user has not installed vt-py and close the program
     import vt
 except:
     print("\nvt-py not installed, install using \"pip install vt-py\". Skipping virustotal scan...\n")
@@ -6,19 +7,23 @@ except:
 import json,sys,os
 import hashlib
 
+#Making sure there is a file specified
 if len(sys.argv) < 2:
     print("No file specified.")
     exit()
 
+#Making sure the sample file provided exists
 if(not os.path.exists("./samples/" + sys.argv[1])):
     print("Specified file not found. Make sure it is in the samples directory.")
     exit()
 
+#Creating a config dictionary to store Virustotal API key for the user
 config = {}
 
 with open("config.txt", "r") as f:
     config = json.load(f)
 
+#Sha256 hash
 sha256_hash = hashlib.sha256()
 
 with open("./samples/" + sys.argv[1], 'rb') as f: #read file bytes
@@ -27,17 +32,22 @@ with open("./samples/" + sys.argv[1], 'rb') as f: #read file bytes
         chunk = f.read(1024)
         sha256_hash.update(chunk)
 
+#Checking that a VirusTotal API Key was provided in the config file
 if config["VirusTotal-API-Key"] == "":
     print("No VirusTotal API key specified, skipping...")
 else:
+    #Checking whether there is already an output directory, creating one if not
     if not os.path.isdir("./outputs/" + sha256_hash.hexdigest()):
         os.makedirs("./outputs/" + sha256_hash.hexdigest())
     client = vt.Client(config["VirusTotal-API-Key"])
     
+    #Check whether the sample has been provided to VirusTotal before, if not it will be automatically submitted
     try:
         sample = client.get_object("/files/" + sha256_hash.hexdigest())
     except:
         print("\n\nFile not found in VirusTotal database, running an analysis now (this may take a while)...")
+
+        #Submitting the file to VirusTotal and generating the first report
         with open("./samples/" + sys.argv[1], "rb") as f:
             print()
             analysis = client.scan_file(f, wait_for_completion=True)
@@ -50,6 +60,7 @@ else:
             report.write(json.dumps(analysis.results, indent=4, sort_keys=True, default=str) + "\n")
             report.close()
 
+        #Generating the second report
         file_report = open("./outputs/" + sha256_hash.hexdigest() + "/VirusTotal_File_Report.txt", "w")
         file_report.write("########################################\nFile Info\n########################################\n")
         try:
@@ -113,6 +124,8 @@ else:
         client.close()
         exit()
 
+    #If the file has previously been submitted, will ask the user whether they want to reanalyze or just display results of previous scan.
+    #From there, essentially the same function as above is done.
     userAnswer = input("This sample has been submitted to VirusTotal before, would you like to reanalyze? (y/n):")
     if userAnswer == "y" or userAnswer == "Y":
         with open("./samples/" + sys.argv[1], "rb") as f:
