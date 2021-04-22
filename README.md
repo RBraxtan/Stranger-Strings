@@ -22,6 +22,8 @@ Step 7: Open outputs to analyze reports, hashes, strings, entropy, and VirusTota
 <br />
 What's in the output directory?<br />
 entropy.txt: A text document containing the strings from the submitted malware with their relevant shannon entropy value listed before each string. Strings more likely to be human-readable are usually found towards the top.<br />
+strings.txt: Raw unfiltered strings dumped by strings2.<br />
+Flagged_Strings.txt: Strings matched to those found in the IOCBlacklist<br />
 VirusTotal_File_Report: A text document containing basic file information as well as more in-depth results for known malware samples such as crowdsourced IDS and YARA rules.<br />
 VirusTotal_Analysis_Report: A text document containing the results of scanning by VirusTotal partnered antivirus engines.<br />
 <br />
