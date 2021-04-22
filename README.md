@@ -1,7 +1,7 @@
 # FSA-Project-Static-Analysis
 <br />
 <br />
-Read First before<br />
+<br />
 *Warning!! When working with potential malware it is important to use a VM or sandbox that is not connected to any network.<br /> 
 *Warning!! We are not responsible for any improper use or spread of any malware.<br /><br />
 *In addition, we are not responsible for the conclusions formed by analysts who employ our tool.<br />
@@ -11,7 +11,7 @@ The purpose of this project is to allow an analyst to statically analyze potenti
 <br />
 Instructions:<br />
 <br />
-Step 0: Make sure you have python 3+ installed, as well as the virustotal python api (vt-py) which can be installed with "pip install vt-py" from command prompt.
+Step 0: Make sure you have python 3+ installed, as well as the virustotal python api (vt-py) which can be installed with "pip install vt-py" from command prompt.<br />
 Step 1: Download Repository.<br />
 Step 2: Unizip Files and make sure they're all in the same directory/folder.<br />
 Step 3: Create a free account on VirusTotal to obtain a personal API key. *optional*<br /><br />
