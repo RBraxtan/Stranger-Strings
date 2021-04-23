@@ -7,7 +7,7 @@
 *In addition, we are not responsible for the conclusions formed by analysts who employ our tool.<br />
 <br />
 <br />
-The purpose of this project is to allow an analyst to statically analyze potentional malware samples. With the information generated from the report the analyst can gain greater insight to the file in question, but whether the file is actually malicious or not is left to be determined by the professional. This tool is intended for use on Windows 10 and is not tested in other environments.<br />
+The purpose of this project is to allow an analyst to statically analyze potential malware samples. With the information generated from the report the analyst can gain greater insight to the file in question, but whether the file is actually malicious or not is left to be determined by the professional. This tool is intended for use on Windows 10 and is not tested in other environments.<br />
 <br />
 Instructions:<br />
 <br />
