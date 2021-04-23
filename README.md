@@ -29,8 +29,8 @@ VirusTotal_Analysis_Report: A text document containing the results of scanning b
 <br />
 <br />
 Dependencies: This folder contains all the dependencies for the program to run (aside from python and vt-py which must be installed separately).<br />
-IOC Blacklist: A less sensitive blacklist that has fewer strings that are more likely to be associated with malware.<br />
 IOC Blacklist (strict): A list of strings that are common with malware which can POSSIBLY indicate whether the file is malicious or otherwise help inform the analyst of the nature of the file.<br />
+IOC Blacklist: A less sensitive blacklist that has fewer strings that are more likely to be associated with malware.<br />
 sigcheck.exe: A sysinternals utility used for checking digital signatures. You can find it here https://docs.microsoft.com/en-us/sysinternals/downloads/sigcheck . Please support the appropriate author of this software.<br />
 strings2.exe: An improved string extraction tool that can be found here: https://github.com/glmcdona/strings2 <br />
 
