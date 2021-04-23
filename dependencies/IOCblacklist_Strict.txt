@@ -1195,4 +1195,5 @@ E:cmn%nFAD
 _controlfp
 .exe
 .sys
+.dll
 bitcoin

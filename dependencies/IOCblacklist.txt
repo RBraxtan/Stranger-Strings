@@ -266,7 +266,6 @@ Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall
 SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce
 SOFTWARE\Microsoft\Windows\CurrentVersion\Run
 Policies\Explorer\Run
-Run
 RunOnce
 RunServices
 RunServicesOnce
@@ -398,7 +397,6 @@ mimikatz
 mshta
 msbuild
 mountvol
-net
 netsh
 Nbtstat
 ProcessHacker
@@ -467,34 +465,6 @@ xcals
 xmrig
 aPLib v1.01 - the smaller the better :)
 Safengine Shielden v2.3.0.0
-This program cannot be run in DOS mode
-!This program cannot be run in DOS mode.
-!That program cannot be run in DOS mode.
-!This program cannot be run in DOS>mode.
-!This program requires Microsoft Windows.
-This program requires Microsoft Windows.
-!This pxzgrac cannot be run in DOS mode.
-This program requires Win32
-!This pragram cannot be run in DOS mode.
-!This is a PE dynamic link library
-!This is a Windows NT character-mode executable
-!This is a PE executable
-!This is a Win32 program.
-Win32 only!
-!That program cannot be run in DOS made.
-This program must be run under Win32
-This program must be run under Win32.
-This program must be run under Win64
-This program must be run under Win64.
-ThisprogrammustberununderWin32
-!Require Windows
-Requires Win32 $
-!It's .NET EXE$@
-!Win32. EXE
-!Win32 .EXE.
-!Windows ONLY!
-Win32 Program!
-!Windows Program
 JanFebMarAprMayJunJulAugSepOctNovDec
 R6002\r\n- floating point support not loaded\r\n
 R6002\r\n- floating point not loaded\r\n
